@@ -5,7 +5,7 @@
 int main()
 {
     //How to ask for the amount of money to dispense
-    int i = get_int("Use me to ask for money\n");
+    int i = get_int("How much money would you like dispensed?\n");
     printf("You asked for $%d\n", i);
 
     //get_string() will help you get a name
